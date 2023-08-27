@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.2)), url("./img/pexels-luis-del-río-15286.jpg");
+    background-attachment: fixed;
+    background-position: center, 100%;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-clip: border-box;
+}
+
+div #search {
+    position: fixed;
+    right: 31%;
+    top: 45%;
+    width: 40%;
+    height: 45px;
+    border-radius: 35px;
+    box-shadow: inset 2px 10px blue 0.8;
+    border-style: solid;
+    border-color: rgb(136, 136, 250);
+    /* opacity: 50%; */
+    padding-left: 2%;
+}
+
+div .submit {
+    padding-left: 40px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-right: 40px;
+    position: fixed;
+    right: 31.010%;
+    top: 45%;
+    border-radius: 30px;
+    border-color: rgb(136, 136, 250);
+    opacity: 80%;
+}
